@@ -46,3 +46,4 @@ input:focus + .placeholder {
   transform: scale(0.9);
   z-index: 3;
 }
+
