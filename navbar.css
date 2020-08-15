@@ -1,0 +1,33 @@
+.contain {
+  position: relative;
+  display: flex;
+  width: 40%;
+  height: 10%;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  box-shadow: 2px 2px 2px 2px #888888;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.4s;
+}
+.h {
+  opacity: 1;
+}
+#slider {
+  position: absolute;
+  width: 33.33%;
+  height: 5px;
+  bottom: -1px;
+  background-color: #aacfdc;
+  transition: transform 0.4s;
+}

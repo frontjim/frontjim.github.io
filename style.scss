@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  outline: none;
+  box-sizing: border-box;
+}
+nav {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 7vh;
+  background-color: #121117;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  z-index: 1;
+
+  a {
+    padding: 0 5px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    &:hover {
+      color: ghostwhite;
+    }
+  }
+}
+.scroll {
+  @import url("slider.css");
+  z-index: -3;
+  background-color: #627c85;
+}
+.cb {
+  @import url("checkbox.css");
+  background-color: #35524a;
+}
+
+.back {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.git {
+  padding-right: 15px;
+}
+
+.navbar {
+  @import url("navbar.css");
+  margin-top: 50%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #779cab;
+}
+.mater {
+  @import url("material.css");
+  margin-top: 50%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #a2e8dd;
+  left: 50%;
+  z-index: -2;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/71fb624cb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Front Jim</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free css html js JavaScript content" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, web dev, front end,front-end,frontend"
+    />
+    <meta name="author" content="FrontJim" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      data-name="BMC-Widget"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="Frontjim"
+      data-description="Support me on Buy me a coffee!"
+      data-message="Thank you for visiting. You can now buy me a coffee!"
+      data-color="#5F7FFF"
+      data-position=""
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <a class="instagram" href="https://www.instagram.com/front_jim/"
+        ><i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+      </a>
+      <a class="jim">FRONT JIM</a>
+      <a class="git" href="https://github.com/frontjim"
+        ><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+      </a>
+    </nav>
+    <div class="back">
+      <div class="cb">
+        <div class="preload">
+          <!--sometimes the CSS transitions for font-size, 
+          border-color, and color animate on page load-->
+          <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function () {
+              let node = document.querySelector(".preload");
+              node.classList.remove("preload");
+            });
+          </script>
+        </div>
+        <!--here we use preload class to prevent transitions. When page is
+        loaded we remove preload class-->
+
+        <label class="container">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="scroll">
+        <label class="wrapper">
+          <input type="checkbox" />
+          <span class="bg"></span>
+          <span class="slider">
+            <span class="sun"></span>
+            <span class="night"></span>
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <div class="contain">
+        <span id="slider"></span>
+        <a class="home h" id="h" onclick="op(this);border(this);"
+          ><i class="fas fa-home"></i>Home</a
+        >
+        <a class="home acc" onclick="op(this); border(this);"
+          ><i class="far fa-user-circle"></i>Account</a
+        >
+        <a class="home fli" onclick="op(this); border(this);"
+          ><i class="fas fa-fighter-jet"></i>Flights</a
+        >
+      </div>
+    </div>
+
+    <div class="mater">
+      <div class="c">
+        <div class="wra">
+          <input type="text" />
+          <div class="placeholder">E-mail</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
