@@ -44,3 +44,4 @@
 .wrapper input:checked ~ .slider {
   transform: translateX(54px);
 }
+
