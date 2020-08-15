@@ -31,7 +31,7 @@ nav {
 }
 .scroll {
   @import url("slider.css");
-  z-index: -3;
+
   background-color: #627c85;
 }
 .cb {
@@ -75,5 +75,4 @@ nav {
   justify-content: center;
   background-color: #a2e8dd;
   left: 50%;
-  z-index: -2;
 }

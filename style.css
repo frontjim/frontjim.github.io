@@ -45,7 +45,6 @@ nav a:hover {
 }
 
 .scroll {
-  z-index: -3;
   background-color: #627c85;
 }
 
@@ -107,6 +106,5 @@ nav a:hover {
           justify-content: center;
   background-color: #a2e8dd;
   left: 50%;
-  z-index: -2;
 }
 /*# sourceMappingURL=style.css.map */
