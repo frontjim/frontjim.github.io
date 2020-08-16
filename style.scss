@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100vw;
   height: 7vh;
@@ -31,6 +31,7 @@ nav {
 }
 .scroll {
   @import url("slider.css");
+  position: relative;
   width: 100%;
   background-color: #627c85;
 }
@@ -45,6 +46,7 @@ nav {
   height: 100vh;
   display: flex;
   flex-direction: row;
+  z-index: 0;
 }
 
 .navbar {
@@ -65,19 +67,17 @@ nav {
   .cb,
   .navbar,
   .mater {
-    width: 100%;
-    height: 100%;
-  }
-  .navbar {
-    margin-top: 200%;
+    min-width: 100vw;
+    min-height: 100vh;
   }
 
   .contain {
     width: 50vw;
   }
   .back {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
     flex: 1;
     flex-wrap: wrap;
   }
