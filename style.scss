@@ -44,6 +44,7 @@ nav {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: row;
 }
 
 .navbar {
@@ -59,7 +60,7 @@ nav {
   width: 100%;
   background-color: #a2e8dd;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .scroll,
   .cb,
   .navbar,
@@ -70,12 +71,14 @@ nav {
   .navbar {
     margin-top: 200%;
   }
-}
-.contain {
-  width: 50vw;
-}
-.back {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
+
+  .contain {
+    width: 50vw;
+  }
+  .back {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+  }
 }
