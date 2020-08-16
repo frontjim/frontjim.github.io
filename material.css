@@ -33,7 +33,7 @@ input {
   text-align: center;
   top: 20%;
   left: 5px;
-  transition: top 0.2s, transform 0.2s, z-index 0s;
+  transition: top 0.2s, transform 0.2s;
 
   background-color: #a2e8dd;
   padding: 5px;

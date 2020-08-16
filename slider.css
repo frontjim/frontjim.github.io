@@ -9,18 +9,15 @@
   transition: all 0.2s;
 }
 .wrapper {
-  position: absolute;
+  position: relative;
   display: flex;
   width: 90px;
   height: 36px;
 }
 .scroll {
-  width: 50%;
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
-  height: 100%;
 }
 .wrapper > input {
   transform: scale(0);
@@ -28,7 +25,7 @@
 .wrapper > input:checked ~ .bg {
   background-color: #282835;
 }
-.slider {
+.slide {
   position: absolute;
   top: 2px;
   left: 2px;
@@ -41,6 +38,6 @@
   background: #f7f7f7;
   transition: transform 0.2s;
 }
-.wrapper input:checked ~ .slider {
+.wrapper input:checked ~ .slide {
   transform: translateX(54px);
 }

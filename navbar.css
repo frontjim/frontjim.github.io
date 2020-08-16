@@ -1,8 +1,8 @@
 .contain {
   position: relative;
   display: flex;
-  width: 40%;
-  height: 10%;
+  width: 20vw;
+  height: 10vh;
   align-items: center;
   font-family: "Lato", sans-serif;
   box-shadow: 2px 2px 2px 2px #888888;
