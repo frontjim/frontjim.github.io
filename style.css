@@ -46,11 +46,11 @@ nav a:hover {
 .scroll {
   position: relative;
   width: 100%;
-  background-color: #627c85;
+  background-color: #4f5d75;
 }
 
 .cb {
-  background-color: #35524a;
+  background-color: #2d3142;
   width: 100%;
 }
 
@@ -78,12 +78,12 @@ nav a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #779cab;
+  background-color: #bfc0c0;
 }
 
 .mater {
   width: 100%;
-  background-color: #a2e8dd;
+  background-color: #ffffff;
 }
 
 @media only screen and (max-width: 800px) {

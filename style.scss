@@ -33,11 +33,11 @@ nav {
   @import url("slider.css");
   position: relative;
   width: 100%;
-  background-color: #627c85;
+  background-color: #4f5d75;
 }
 .cb {
   @import url("checkbox.css");
-  background-color: #35524a;
+  background-color: #2d3142;
   width: 100%;
 }
 
@@ -55,12 +55,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #779cab;
+  background-color: #bfc0c0;
 }
 .mater {
   @import url("material.css");
   width: 100%;
-  background-color: #a2e8dd;
+  background-color: #ffffff;
 }
 @media only screen and (max-width: 800px) {
   .scroll,
