@@ -62,6 +62,23 @@ nav {
   width: 100%;
   background-color: #ffffff;
 }
+.nn {
+  @import url("navbarn.css");
+  width: 100%;
+  display: flex;
+  background: #69bdd2;
+  justify-content: center;
+  align-items: center;
+}
+.hl {
+  @import url("highlight.css");
+  width: 100%;
+  display: flex;
+  background: #627c85;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 @media only screen and (max-width: 800px) {
   .scroll,
   .cb,
