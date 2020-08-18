@@ -130,8 +130,9 @@ nav a:hover {
     min-width: 100vw;
     min-height: 100vh;
   }
-  .contain {
-    width: 50vw;
+  .contain,
+  .conq {
+    width: 80vw;
   }
   .back {
     width: 100%;

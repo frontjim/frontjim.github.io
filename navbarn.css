@@ -1,7 +1,5 @@
-.con {
+.conq {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 20vw;
   height: 10vh;
