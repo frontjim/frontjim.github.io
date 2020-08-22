@@ -53,97 +53,156 @@
     />
   </head>
   <body>
-    <nav>
-      <a class="instagram" href="https://www.instagram.com/frontjim/"
-        ><i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-      </a>
-      <a class="jim">FRONT JIM</a>
-      <a class="git" href="https://github.com/frontjim"
-        ><i class="fa fa-github fa-lg" aria-hidden="true"></i>
-      </a>
-    </nav>
-    <div class="back">
-      <div class="cb">
-        <div class="preload">
-          <!--sometimes the CSS transitions for font-size, 
-          border-color, and color animate on page load-->
-          <script type="text/javascript">
-            document.addEventListener("DOMContentLoaded", function () {
-              let node = document.querySelector(".preload");
-              node.classList.remove("preload");
-            });
-          </script>
-        </div>
-        <!--here we use preload class to prevent transitions. When page is
-        loaded we remove preload class-->
-
-        <label class="container">
-          <input type="checkbox" />
-          <span class="checkmark"></span>
-        </label>
-      </div>
-      <div class="scroll">
-        <label class="wrapper">
-          <input type="checkbox" />
-          <span class="bg"></span>
-          <span class="slide"></span>
-        </label>
+    <div class="nav">
+      <span id="porto">PORTOFOLIO</span>
+      <span id="jim">Hello, I am </span><span id="im">FRONT JIM.</span>
+      <span id="logia">I'm a Front end web developer.</span>
+      <span id="free"
+        >If you like my work,<br />
+        buy me coffee for more !</span
+      >
+      <style>
+        .bmc-button img {
+          height: 34px !important;
+          width: 35px !important;
+          margin-bottom: 1px !important;
+          box-shadow: none !important;
+          border: none !important;
+          vertical-align: middle !important;
+        }
+        .bmc-button {
+          position: relative;
+          top: 30%;
+          padding: 7px 15px 7px 10px !important;
+          line-height: 35px !important;
+          height: 51px !important;
+          text-decoration: none !important;
+          display: inline-flex !important;
+          color: #ffffff !important;
+          background-color: #ff813f !important;
+          border-radius: 8px !important;
+          border: 1px solid transparent !important;
+          font-size: 24px !important;
+          letter-spacing: 0.6px !important;
+          margin: 0 auto !important;
+          font-family: "Cookie", cursive !important;
+          -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+        }
+        .bmc-button:hover,
+        .bmc-button:active,
+        .bmc-button:focus {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+      </style>
+      <link
+        href="https://fonts.googleapis.com/css?family=Cookie"
+        rel="stylesheet"
+      /><a
+        class="bmc-button"
+        target="_blank"
+        href="https://www.buymeacoffee.com/Frontjim"
+        ><img
+          src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+          alt="Buy me a coffee"
+        /><span style="margin-left: 5px; font-size: 24px !important;"
+          >Buy me a coffee</span
+        ></a
+      >
+      <div id="anc">
+        <a class="instagram" href="https://www.instagram.com/frontjim/"
+          ><i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+        </a>
+        <a class="git" href="https://github.com/frontjim"
+          ><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
-    <div class="back">
-      <div class="navbar">
-        <div class="contain">
-          <span id="slider"></span>
-          <a class="home h" id="h" onclick="op(this);border(this);"
-            ><i class="fas fa-home"></i>Home</a
-          >
-          <a class="home acc" onclick="op(this); border(this);"
-            ><i class="far fa-user-circle"></i>Account</a
-          >
-          <a class="home fli" onclick="op(this); border(this);"
-            ><i class="fas fa-fighter-jet"></i>Flights</a
-          >
+    <div class="swma">
+      <div class="back">
+        <div class="cb">
+          <div class="preload">
+            <!--sometimes the CSS transitions for font-size, 
+          border-color, and color animate on page load-->
+            <script type="text/javascript">
+              document.addEventListener("DOMContentLoaded", function () {
+                let node = document.querySelector(".preload");
+                node.classList.remove("preload");
+              });
+            </script>
+          </div>
+          <!--here we use preload class to prevent transitions. When page is
+        loaded we remove preload class-->
+
+          <label class="container">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="scroll">
+          <label class="wrapper">
+            <input type="checkbox" />
+            <span class="bg"></span>
+            <span class="slide"></span>
+          </label>
         </div>
       </div>
+      <div class="back">
+        <div class="navbar">
+          <div class="contain">
+            <span id="slider"></span>
+            <a class="home h" id="h" onclick="op(this);border(this);"
+              ><i class="fas fa-home"></i>Home</a
+            >
+            <a class="home acc" onclick="op(this); border(this);"
+              ><i class="far fa-user-circle"></i>Account</a
+            >
+            <a class="home fli" onclick="op(this); border(this);"
+              ><i class="fas fa-fighter-jet"></i>Flights</a
+            >
+          </div>
+        </div>
 
-      <div class="mater">
-        <div class="c">
-          <div class="wra">
-            <input class="w" type="text" />
-            <div class="placeholder">E-mail</div>
+        <div class="mater">
+          <div class="c">
+            <div class="wra">
+              <input class="w" type="text" />
+              <div class="placeholder">E-mail</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="back">
-      <div class="nn">
-        <div class="conq">
-          <span id="bor"></span>
-          <a class="iconn hom" onclick="o(this); borde(this);"
-            ><i class="far fa-envelope fa-lg"></i>Inbox</a
-          >
-          <a class="iconn" onclick="o(this); borde(this);"
-            ><i class="far fa-chart-bar fa-lg"></i>Stats</a
-          >
-          <a class="iconn" onclick="o(this); borde(this);"
-            ><i class="fas fa-search fa-lg"></i>Search</a
-          >
+      <div class="back">
+        <div class="nn">
+          <div class="conq">
+            <span id="bor"></span>
+            <a class="iconn hom" onclick="o(this); borde(this);"
+              ><i class="far fa-envelope fa-lg"></i>Inbox</a
+            >
+            <a class="iconn" onclick="o(this); borde(this);"
+              ><i class="far fa-chart-bar fa-lg"></i>Stats</a
+            >
+            <a class="iconn" onclick="o(this); borde(this);"
+              ><i class="fas fa-search fa-lg"></i>Search</a
+            >
+          </div>
+        </div>
+        <div class="hl">
+          <div class="highlight">
+            Highlight
+            <span id="highl"></span>
+          </div>
         </div>
       </div>
-      <div class="hl">
-        <div class="highlight">
-          Highlight
-          <span id="highl"></span>
-        </div>
-      </div>
+      <script
+        async
+        defer
+        src="https://scripts.simpleanalyticscdn.com/latest.js"
+      ></script>
+      <noscript
+        ><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
+      /></noscript>
     </div>
-    <script
-      async
-      defer
-      src="https://scripts.simpleanalyticscdn.com/latest.js"
-    ></script>
-    <noscript
-      ><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
-    /></noscript>
   </body>
 </html>

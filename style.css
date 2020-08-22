@@ -11,38 +11,86 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-nav {
-  position: fixed;
-  top: 0;
+body {
   width: 100vw;
-  height: 7vh;
-  background-color: #121117;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 100vh;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+  overflow-y: hidden;
+}
+.swma {
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+}
+.nav {
+  width: 20%;
+  height: 100%;
+  background-color: #031926;
+  display: flex;
   align-items: center;
+  justify-content: center;
   color: rgba(255, 255, 255, 0.75);
+
+  flex-direction: column;
+}
+#jim,
+#im,
+#logia {
+  position: relative;
+  top: -20%;
+  padding: 5px 0;
+}
+#porto {
+  position: relative;
+  top: -27%;
+  font-size: 1.25em;
+  letter-spacing: 5px;
+}
+#jim {
   font-size: 1.5em;
-  letter-spacing: 22px;
-  z-index: 1;
+  font-weight: 700;
+}
+#im {
+  font-size: 2em;
+  letter-spacing: 10px;
+  font-weight: 900;
+}
+#logia {
+  font-size: 1em;
+  font-weight: 300;
+}
+#free {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  font-size: 1.25em;
 }
 
-nav a {
-  padding: 0 15px;
+#anc {
+  position: relative;
+  top: -30%;
+  width: 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   outline: none;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.25em;
 }
-
-nav a:hover {
+.nav .git,
+.instagram {
+  display: flex;
+  outline: none;
+  color: rgba(255, 255, 255, 0.75);
+  opacity: 0.75;
+  text-decoration: none;
+  padding: 0 15px;
+  transition: opacity 0.5s;
+}
+.nav .git:hover,
+.instagram:hover {
   color: ghostwhite;
+  opacity: 1;
 }
 
 .scroll {
@@ -57,8 +105,8 @@ nav a:hover {
 }
 
 .back {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,6 +115,7 @@ nav a:hover {
   -ms-flex-direction: row;
   flex-direction: row;
   z-index: 0;
+  overflow-y: auto;
 }
 
 .navbar {
