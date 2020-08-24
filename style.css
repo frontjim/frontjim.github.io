@@ -28,16 +28,25 @@ body {
   color: rgba(255, 255, 255, 0.75);
   flex-direction: column;
 }
+#donation {
+  position: relative;
+  text-align: center;
+  width: 65%;
+  padding: 1em;
+  background-color: #00121d;
+  border-radius: 20px;
+  top: 12%;
+}
 #jim,
 #im,
 #logia {
   position: relative;
-  top: -20%;
+  top: -6%;
   padding: 5px 0;
 }
 #porto {
   position: relative;
-  top: -27%;
+  top: -20%;
   font-size: 1.25em;
   letter-spacing: 5px;
 }
@@ -56,7 +65,7 @@ body {
 }
 #free {
   position: relative;
-  top: 30%;
+  top: 37%;
   text-align: center;
   font-size: 1.25em;
 }
