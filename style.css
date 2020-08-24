@@ -21,7 +21,7 @@ body {
   position: fixed;
   width: 20vw;
   height: 100vh;
-  background-color: #031926;
+  background-color: #2f323a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,9 +33,10 @@ body {
   text-align: center;
   width: 65%;
   padding: 1em;
-  background-color: #00121d;
+  background-color: #4a4e69;
   border-radius: 20px;
   top: 12%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 #jim,
 #im,
