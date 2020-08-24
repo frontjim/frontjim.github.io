@@ -6,31 +6,26 @@
 @import url("highlight.css");
 * {
   margin: 0;
+  padding: 0;
   font-family: "DM Sans", sans-serif;
   outline: none;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  overflow-y: hidden;
-}
-.swma {
-  width: 80%;
+  width: 100%;
   height: 100%;
-  overflow-y: auto;
 }
+
 .nav {
-  width: 20%;
-  height: 100%;
+  position: fixed;
+  width: 20vw;
+  height: 100vh;
   background-color: #031926;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgba(255, 255, 255, 0.75);
-
   flex-direction: column;
 }
 #jim,
@@ -105,17 +100,13 @@ body {
 }
 
 .back {
-  width: 100%;
-  height: 100%;
+  transform: translate(20vw, 0);
+  width: calc(80vw - 10px);
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  z-index: 0;
-  overflow-y: auto;
 }
 
 .navbar {
@@ -170,6 +161,16 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 40px;
+  width: 10px;
+  opacity: 0.75;
+}
 
 @media only screen and (max-width: 800px) {
   .scroll,
@@ -196,6 +197,10 @@ body {
     flex: 1;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    transform: translate(0);
+  }
+  .nav {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
